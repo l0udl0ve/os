@@ -1,6 +1,10 @@
 [package]
-name = "project"
+name = "s2"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[workspace]
+members = ["tcpserver", "tcpclient", "service", "http","httpserver", "crypto"]
+

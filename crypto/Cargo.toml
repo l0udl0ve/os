@@ -1,0 +1,11 @@
+[package]
+name = "crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+rsa = { version = "0.9.6", features = ["std", "serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_with = "3.11.0"
+base64 = "0.22.1"

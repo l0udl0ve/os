@@ -1,0 +1,15 @@
+[package]
+name = "httpserver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+http = {path = "../http"}
+service= {path = "../service"}
+crypto= {path = "../crypto"}
+serde = {version="1.0.163", features = ["derive"]}
+serde_json = "1.0.96"
+rsa="0.9.6"
+bincode = "1.3"
